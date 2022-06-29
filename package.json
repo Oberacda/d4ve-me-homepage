@@ -1,0 +1,48 @@
+{
+	"name": "d4ve-me-homepage",
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": {
+		"name": "David Oberacker",
+		"email": "doberacker@d4ve.me",
+		"url": "http://d4ve.me/"
+	},
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/kit": "next",
+		"@types/cookie": "^0.5.1",
+		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/parser": "^5.27.0",
+		"autoprefixer": "^10.4.7",
+		"eslint-config-prettier": "^8.3.0",
+		"postcss": "^8.4.14",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.46.0",
+		"svelte-check": "^2.7.1",
+		"svelte-parallax": "^0.5.2",
+		"svelte-preprocess": "^4.10.7",
+		"svelte-swipe": "^1.8.2",
+		"tailwindcss": "^3.1.4",
+		"tslib": "^2.3.1",
+		"typescript": "^4.7.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"cookie": "^0.4.1",
+		"svelte-tabs": "^1.1.0",
+		"svelte2tsx": "^0.5.11"
+	}
+}
